@@ -108,10 +108,10 @@ class RG:
 
 generator = RG()
 #generator.LCG(a=2, c=4, m=5, x=3, terms=30)
-#generator.LLG(a=75, c=0, m=2**31 - 1, x=0.005, terms=100)
+generator.LLG(a=75, c=0, m=2**31 - 1, x=0.005, terms=100)
 #generator.Fibonacci(LV = 0, CV = 1, terms=10)
 #generator.LFG(X0 = 1, X1 = 1, terms=100)
 #generator.LMMG(X0 = 1, X1 = 1, terms=200)
-generator.LLG_V(segments=20)
+#generator.LLG_V(segments=20)
 
 print(generator._numbers)
